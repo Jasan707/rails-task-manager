@@ -1,6 +1,6 @@
-class CreateTaskControllers < ActiveRecord::Migration[6.1]
+class CreateTasksControllers < ActiveRecord::Migration[6.1]
   def change
-    create_table :task_controllers do |t|
+    create_table :tasks_controllers do |t|
 
       t.timestamps
     end
